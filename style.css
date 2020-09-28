@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+}
+.sec1 {
+
+    width:1300px ; 
+    height:470px;
+    background-color: #DFE6E9 ;
+    margin:  30p;
+}
+img {
+    width: 600px;
+    height: 250px;
+    padding-left: 35px;
+}
+
+.sec2 {
+  
+color: white;
+    width:1300px ; 
+    height:470px;
+    background-color:#30336B;
+}
+h2:hover{
+    color: white;
+    background-color: black;
+  }
+ .sec1 p::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+  }
+  .sec2 p::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+  }
+  p::selection{
+    color: white;
+    background-color: goldenrod;
+  }
+  h3::after{
+  content: 'Hello from CSS';
+  color: red;
+}
+
+p::after{
+    content:' Read More >>';
+    display: inline-block;
+    
+   
+  }
